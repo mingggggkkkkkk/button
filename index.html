@@ -24,6 +24,13 @@
         <li><a href="#">버튼</a></li>
     </ul>
   </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    $("toggleNav").hide();
+    $(".toggleBtn").on('click', function(){
+      $("#toggleNav").slideToggle();
+    })
+  </script>
   <div id="topNav">
     <ul>
         <li><a href="#">버튼</a></li>
