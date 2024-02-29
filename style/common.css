@@ -55,13 +55,11 @@ body { font-family: "Noto Sans KR", sans-serif; }
 /* mainSection */
 #mainSection { padding: 10px; }
 #mainSection header { padding: 10px; }
-#mainSection header p { margin-bottom: 15px; line-height: 24px; }
+#mainSection p { margin-bottom: 24px; line-height: 24px; }
 
 /* footer */
 #footer { padding: 20px 0; 
         border-top: 3px solid #000;
-        text-align: center;
-        font-family: serif;
         font-size: 24px;
           }
 #footer small { font-family: serif;
